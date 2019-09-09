@@ -1,0 +1,93 @@
+<style>
+blank {
+}   /* Filler, First class is skipped without this, no clue why*/
+
+button {     /*Defines all Buttons */
+	cursor: pointer;
+	border-color: #000000;
+	background: none;
+	padding: 0px;
+	height: 40px;
+	width: 90px;
+}
+
+.sub {     /*Defines sub, or contents of link folders */                          
+    width: 100%;
+	background-color: #d9d9d9;
+	color: #000000;
+    text-align: left;
+    padding: 2px 2px;
+    font-size: 90%;
+	position: relative;
+    right: 0px;
+	top: 10px;
+	outline: #000000 solid 3px;
+	display: none;
+}
+
+.fillspace {            /*Defines space fillers */
+	width: 1px;
+	height:10px;
+	display:inline-block;
+}
+
+
+#fillend2 {          /*Defines the last space filler one for each number of links*/   
+	width: 1px;
+	height:35px;
+	display:none;
+}
+
+#fillend1 {          /*Defines the last space filler one for each number of links*/   
+	width: 1px;
+	height:25px;
+	display:none;
+}
+
+#fillend3 {            
+	width: 1px;
+	height:50px;
+	display:none;
+}
+#fillend4 {            
+	width: 1px;
+	height:65px;
+	display:none;
+}
+#fillend5 {            
+	width: 1px;
+	height:80px;
+	display:none;
+}
+#fillend6 {            
+	width: 1px;
+	height:95px;
+	display:none;
+}
+#fillend7 {            
+	width: 1px;
+	height:110px;
+	display:none;
+}
+#fillend8 {            
+	width: 1px;
+	height:125px;
+	display:none;
+}
+#fillend9 {            
+	width: 1px;
+	height:130px;
+	display:none;
+}
+#fillend10 {            
+	width: 1px;
+	height:155px;
+	display:none;
+}
+a:hover {			/*Adds the color while hovering over links */
+	background-color: #33c9ff;
+}
+button:hover {			/*Adds the color while hovering over links */
+	background-color: #33c9ff;
+}
+</style>
