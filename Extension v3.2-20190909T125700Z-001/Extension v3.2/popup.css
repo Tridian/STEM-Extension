@@ -27,7 +27,6 @@ button {     /*Defines all Buttons */
 
 .fillspace {            /*Defines space fillers */
 	width: 1px;
-	background-color: #505953;
 	height:10px;
 	display:inline-block;
 }
