@@ -30,111 +30,30 @@ document.addEventListener("DOMContentLoaded", function(){
 	var NGriffith != document.getElementById("Griffith"); 
 	var NHughes != document.getElementById("Hughes"); 
 	var NDreslinski != document.getElementById("Dreslinski"); 
-});	var NYork != document.getElementById("York");
+	var NYork != document.getElementById("York");
 	var NKaffen != document.getElementById("Kaffen"); 
 	var NCown != document.getElementById("Cown"); 
 	var NHoward != document.getElementById("Howard"); 
 	var NImpact != document.getElementById("Impact"); 
-	var NPose != document.getElementById("Pose"); 
+	var NPose != document.getElementById("Pose");
+});	
 /* adds the eventlisteners for all multilink folders. These run the appear function when clicked. Make sure there is a listener for all multilink folders
 Event Listener Template:  document.getElementById("Name").addEventListener("click", Nameappear; 
 */
 
 function Applebyappear(){
 	document.getElementById("Applebysub").style.display="Block";
-	document.getElementById("Site").style.display="None";
-	document.getElementById("Chen").style.display="None";
-	document.getElementById("Impact").style.display="None";
-	document.getElementById("Pose").style.display="None";
-	document.getElementById("Portal").style.display="None";
-	document.getElementById("Shecalf").style.display="None";
-	document.getElementById("Hecalf").style.display="None";
-	document.getElementById("Palumbo").style.display="None";
-	document.getElementById("Rauschenberger").style.display="None";
-	document.getElementById("Treen").style.display="None";
-	document.getElementById("Popa").style.display="None";
-	document.getElementById("Griffith").style.display="None";
-	document.getElementById("Hanna").style.display="None";
-	document.getElementById("Kaffen").style.display="None";
-	document.getElementById("Classroom").style.display="None";
-	document.getElementById("Dreslinski").style.display="None";
-	document.getElementById("Hughes").style.display="None";
-	document.getElementById("York").style.display="None";
-	document.getElementById("Cohen").style.display="None";
-	document.getElementById("Cown").style.display="None";
-	document.getElementById("Graber").style.display="None";
-	document.getElementById("Applebysp").style.display="None";
-	document.getElementById("Sitesp").style.display="None";
-	document.getElementById("Griffithsp").style.display="None";
-	document.getElementById("Portalsp").style.display="None";
-	document.getElementById("Shecalfsp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
-	document.getElementById("Hecalfsp").style.display="None";
-	document.getElementById("Impactsp").style.display="None";
-	document.getElementById("Chensp").style.display="None";
-	document.getElementById("Hughessp").style.display="None";
-	document.getElementById("Palumbosp").style.display="None";
-	document.getElementById("Rauschenbergersp").style.display="None";
-	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Hannasp").style.display="None";
-	document.getElementById("Classroomsp").style.display="None";
-	document.getElementById("Cohensp").style.display="None";
-	document.getElementById("Dreslinskisp").style.display="None";
-	document.getElementById("Yorksp").style.display="None";
-	document.getElementById("Grabersp").style.display="None";
-	document.getElementById("Cownsp").style.display="None";
-	document.getElementById("Kaffensp").style.display="None";
+	Nappleby.style.display="none";
 	document.getElementById("fillend6").style.display="inline-block";
 	
 	document.getElementById("Appleby").removeEventListener("click", Applebyappear);
 	document.getElementById("Appleby").addEventListener("click", Applebydisappear)
 }
 function Shecalfappear(){
-	document.getElementById("Appleby").style.display="None";
-	document.getElementById("Site").style.display="None";
-	document.getElementById("Portal").style.display="None";
-	document.getElementById("Chen").style.display="None";
+	
+	Nappleby.style.display="none";
 	document.getElementById("Shecalfsub").style.display="Block";
-	document.getElementById("Hecalf").style.display="None";
-	document.getElementById("Impact").style.display="None";
-	document.getElementById("Palumbo").style.display="None";
-	document.getElementById("Rauschenberger").style.display="None";
-	document.getElementById("Hughes").style.display="None";
-	document.getElementById("Treen").style.display="None";
-	document.getElementById("Popa").style.display="None";
-	document.getElementById("Howard").style.display="None";
-	document.getElementById("Griffith").style.display="None";
-	document.getElementById("Hanna").style.display="None";
-	document.getElementById("Classroom").style.display="None";
-	document.getElementById("Cohen").style.display="None";
-	document.getElementById("Dreslinski").style.display="None";
-	document.getElementById("Pose").style.display="None";
-	document.getElementById("Kaffen").style.display="None";
-	document.getElementById("Graber").style.display="None";
-	document.getElementById("Cown").style.display="None";
-	document.getElementById("York").style.display="None";
-	document.getElementById("Applebysp").style.display="None";
-	document.getElementById("Sitesp").style.display="None";
-	document.getElementById("Impactsp").style.display="None";
-	document.getElementById("Griffithsp").style.display="None";
-	document.getElementById("Portalsp").style.display="None";
-	document.getElementById("Shecalfsp").style.display="None";
-	document.getElementById("Hecalfsp").style.display="None";
-	document.getElementById("Howardsp").style.display="None";
-	document.getElementById("Chensp").style.display="None";
-	document.getElementById("Palumbosp").style.display="None";
-	document.getElementById("Rauschenbergersp").style.display="None";
-	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Hannasp").style.display="None";
-	document.getElementById("Classroomsp").style.display="None";
-	document.getElementById("Hughessp").style.display="None";
-	document.getElementById("Dreslinskisp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
-	document.getElementById("Cohensp").style.display="None";
-	document.getElementById("Yorksp").style.display="None";
-	document.getElementById("Kaffensp").style.display="None";
-	document.getElementById("Cownsp").style.display="None";
-	document.getElementById("Grabersp").style.display="None";
+
 	document.getElementById("fillend9").style.display="inline-block";
 	
 	document.getElementById("Shecalf").removeEventListener("click", Shecalfappear);
