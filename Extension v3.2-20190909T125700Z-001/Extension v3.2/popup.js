@@ -220,6 +220,7 @@ function Hecalfappear(){
 	document.getElementById("Hecalf").removeEventListener("click", Hecalfappear);
 	document.getElementById("Hecalf").addEventListener("click", Hecalfdisappear)
 }
+/*
 function Hannaappear(){
 	document.getElementById("Appleby").style.display="None";
 	document.getElementById("Site").style.display="None";
@@ -269,6 +270,7 @@ function Hannaappear(){
 	document.getElementById("Hanna").removeEventListener("click", Hannaappear);
 	document.getElementById("Hanna").addEventListener("click", Hannadisappear)
 }
+*/
 function Popaappear(){
 	document.getElementById("Appleby").style.display="None";
 	document.getElementById("Site").style.display="None";
@@ -571,7 +573,7 @@ function Hughesappear(){
 	document.getElementById("Hughes").addEventListener("click", Hughesdisappear)
 }
 
-function Dreslinskiappear(){
+/* function Dreslinskiappear(){
 	document.getElementById("Dreslinskisub").style.display="Block";
 	 
 	document.getElementById("Appleby").style.display="None";
@@ -624,6 +626,7 @@ function Dreslinskiappear(){
 	document.getElementById("Dreslinski").removeEventListener("click", Dreslinskiappear);
 	document.getElementById("Dreslinski").addEventListener("click", Dreslinskidisappear)
 }
+*/
 function Yorkappear(){
 	document.getElementById("Yorksub").style.display="Block";
 	document.getElementById("Dreslinski").style.display="None";
@@ -679,6 +682,7 @@ function Yorkappear(){
 	document.getElementById("York").removeEventListener("click", Yorkappear);
 	document.getElementById("York").addEventListener("click", Yorkdisappear)
 }
+/*
 function Kaffenappear(){
 	document.getElementById("York").style.display="None";
 	document.getElementById("Kaffensub").style.display="Block";
@@ -782,7 +786,7 @@ function Cownappear(){
 	
 	document.getElementById("Cown").removeEventListener("click", Cownappear);
 	document.getElementById("Cown").addEventListener("click", Cowndisappear)
-}
+} */
 
 /*These are the appear functions. Ensure every multilink folder has one
 To create one, use this template: 
@@ -800,7 +804,7 @@ function Nameappear(){																These are the links, none of them should b
 	document.getElementById("Name").addEventListener("click", Namedisappear)
 	*/
 	
-
+/*
 function Cowndisappear(){
 	document.getElementById("Appleby").style.display="Block";
 	document.getElementById("Site").style.display="Block";
@@ -908,7 +912,7 @@ function Kaffendisappear(){
 	
 	document.getElementById("Kaffen").addEventListener("click", Kaffenappear);
 	document.getElementById("Kaffen").removeEventListener("click", Kaffendisappear);
-}
+} */
 	function Yorkdisappear(){
 	document.getElementById("Appleby").style.display="Block";
 	document.getElementById("Site").style.display="Block";
@@ -962,6 +966,7 @@ function Kaffendisappear(){
 	document.getElementById("York").addEventListener("click", Yorkappear);
 	document.getElementById("York").removeEventListener("click", Yorkdisappear);
 }
+/*
 function Dreslinskidisappear(){
 	document.getElementById("Appleby").style.display="Block";
 	document.getElementById("Site").style.display="Block";
@@ -1011,7 +1016,7 @@ function Dreslinskidisappear(){
 	document.getElementById("fillend2").style.display="None";
 	document.getElementById("Dreslinski").addEventListener("click", Dreslinskiappear);
 	document.getElementById("Dreslinski").removeEventListener("click", Dreslinskidisappear);
-}
+} */
 
 	
 	function Hughesdisappear(){
