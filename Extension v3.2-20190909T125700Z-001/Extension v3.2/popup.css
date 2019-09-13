@@ -7,21 +7,21 @@ button {     /*Defines all Buttons */
 	border-color: #019ba6;
 	background-color: #3d4e56;
 	padding: 0px;
-	height: 40px;
-	width: 91.5px;
+	height: 60px;
+	width: 100px;
 }
 
 .sub {     /*Defines sub, or contents of link folders */                          
     width: 100%;
-	background-color: #d9d9d9;
+	background-color: #9e9e9e;
 	color: #000000;
     text-align: left;
-    padding: 2px 2px;
+    padding: 0px;
     font-size: 90%;
 	position: relative;
     right: 0px;
 	top: 10px;
-	outline: #00a2ff solid 3px;
+	outline: #019ba6 solid 2px;
 	display: none;
 }
 
@@ -76,7 +76,7 @@ button {     /*Defines all Buttons */
 }
 #fillend9 {            
 	width: 1px;
-	height:130px;
+	height:140px;
 	display:none;
 }
 #fillend10 {            
