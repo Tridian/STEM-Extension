@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 //  document.getElementById("Cown").addEventListener("click", Cownappear);
 //  document.getElementById("Howard").addEventListener("click", Howardappear);
 	document.getElementById("Impact").addEventListener("click", Impactappear);
-	document.getElementById("Pose").addEventListener("click", Poseappear);
+//  document.getElementById("Pose").addEventListener("click", Poseappear);
 });
 /* adds the eventlisteners for all multilink folders. These run the appear function when clicked. Make sure there is a listener for all multilink folders
 Event Listener Template:  document.getElementById("Name").addEventListener("click", Nameappear; 
@@ -27,7 +27,7 @@ function Applebyappear(){
 	document.getElementById("Site").style.display="None";
 	document.getElementById("Chen").style.display="None";
 	document.getElementById("Impact").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Portal").style.display="None";
 	document.getElementById("Shecalf").style.display="None";
 	document.getElementById("Hecalf").style.display="None";
@@ -50,7 +50,7 @@ function Applebyappear(){
 	document.getElementById("Griffithsp").style.display="None";
 	document.getElementById("Portalsp").style.display="None";
 	document.getElementById("Shecalfsp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Hecalfsp").style.display="None";
 	document.getElementById("Impactsp").style.display="None";
 	document.getElementById("Chensp").style.display="None";
@@ -90,7 +90,7 @@ function Shecalfappear(){
 	document.getElementById("Classroom").style.display="None";
 	document.getElementById("Cohen").style.display="None";
 //  document.getElementById("Dreslinski").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 //  document.getElementById("Kaffen").style.display="None";
 	document.getElementById("Graber").style.display="None";
 //  document.getElementById("Cown").style.display="None";
@@ -111,7 +111,7 @@ function Shecalfappear(){
 	document.getElementById("Classroomsp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
 //  document.getElementById("Dreslinskisp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Cohensp").style.display="None";
 	document.getElementById("Yorksp").style.display="None";
 //  document.getElementById("Kaffensp").style.display="None";
@@ -135,7 +135,7 @@ function Graberappear(){
 	document.getElementById("Rauschenberger").style.display="None";
 	document.getElementById("Hughes").style.display="None";
 	document.getElementById("Treen").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Popa").style.display="None";
 //  document.getElementById("Hanna").style.display="None";
 //  document.getElementById("Kaffen").style.display="None";
@@ -156,7 +156,7 @@ function Graberappear(){
 	document.getElementById("Palumbosp").style.display="None";
 	document.getElementById("Rauschenbergersp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
 	document.getElementById("Cohensp").style.display="None";
@@ -184,7 +184,7 @@ function Hecalfappear(){
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Popa").style.display="None";
 //  document.getElementById("Hanna").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("York").style.display="None";
 	document.getElementById("Classroom").style.display="None";
 	document.getElementById("Impact").style.display="None";
@@ -209,7 +209,7 @@ function Hecalfappear(){
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Cohensp").style.display="None";
 	document.getElementById("Grabersp").style.display="None";
 //  document.getElementById("Cownsp").style.display="None";
@@ -283,7 +283,7 @@ function Popaappear(){
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Hughes").style.display="None";
 //  document.getElementById("Dreslinski").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 //  document.getElementById("Hanna").style.display="None";
 	document.getElementById("Classroom").style.display="None";
 	document.getElementById("York").style.display="None";
@@ -305,7 +305,7 @@ function Popaappear(){
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Chensp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 //  document.getElementById("Dreslinskisp").style.display="None";
 	document.getElementById("Cohensp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
@@ -328,7 +328,7 @@ function Palumboappear(){
 //  document.getElementById("Howard").style.display="None";
 	document.getElementById("Palumbosub").style.display="Block";
 	document.getElementById("Rauschenberger").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Popa").style.display="None";
 //  document.getElementById("Hanna").style.display="None";
@@ -354,7 +354,7 @@ function Palumboappear(){
 	document.getElementById("Rauschenbergersp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
 //  document.getElementById("Kaffensp").style.display="None";
@@ -388,7 +388,7 @@ function Rauschenbergerappear(){
 	document.getElementById("York").style.display="None";
 	document.getElementById("Cohen").style.display="None";
 //  document.getElementById("Kaffen").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 //  document.getElementById("Dreslinski").style.display="None";
 //  document.getElementById("Cown").style.display="None";
 	document.getElementById("Graber").style.display="None";
@@ -402,7 +402,7 @@ function Rauschenbergerappear(){
 	document.getElementById("Griffithsp").style.display="None";
 	document.getElementById("Impactsp").style.display="None";
 	document.getElementById("Palumbosp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Rauschenbergersp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
@@ -433,7 +433,7 @@ function Chenappear(){
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Popa").style.display="None";
 //  document.getElementById("Dreslinski").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 //  document.getElementById("Hanna").style.display="None";
 	document.getElementById("Classroom").style.display="None";
 	document.getElementById("Hughes").style.display="None";
@@ -454,7 +454,7 @@ function Chenappear(){
 	document.getElementById("Rauschenbergersp").style.display="None";
 	document.getElementById("Impactsp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
@@ -481,7 +481,7 @@ function Griffithappear(){
 	document.getElementById("Rauschenberger").style.display="None";
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Impact").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Popa").style.display="None";
 	document.getElementById("Hughes").style.display="None";
 //  document.getElementById("Kaffen").style.display="None";
@@ -503,7 +503,7 @@ function Griffithappear(){
 	document.getElementById("Palumbosp").style.display="None";
 	document.getElementById("Rauschenbergersp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Impactsp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
@@ -527,7 +527,7 @@ function Hughesappear(){
 	document.getElementById("Hecalf").style.display="None";
 	document.getElementById("Chen").style.display="None";
 	document.getElementById("Palumbo").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Rauschenberger").style.display="None";
 	document.getElementById("Treen").style.display="None";
 	document.getElementById("Popa").style.display="None";
@@ -549,7 +549,7 @@ function Hughesappear(){
 	document.getElementById("Shecalfsp").style.display="None";
 //  document.getElementById("Cownsp").style.display="None";
 	document.getElementById("Impactsp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Griffithsp").style.display="None";
 	document.getElementById("Hughessp").style.display="None";
 	document.getElementById("Hecalfsp").style.display="None";
@@ -646,7 +646,7 @@ function Yorkappear(){
 	document.getElementById("Hughes").style.display="None";
 //  document.getElementById("Kaffen").style.display="None";
 //  document.getElementById("Howard").style.display="None";
-	document.getElementById("Pose").style.display="None";
+//  document.getElementById("Pose").style.display="None";
 	document.getElementById("Cohen").style.display="None";
 	document.getElementById("Impact").style.display="None";
 	document.getElementById("Graber").style.display="None";
@@ -667,7 +667,7 @@ function Yorkappear(){
 	document.getElementById("Palumbosp").style.display="None";
 	document.getElementById("Rauschenbergersp").style.display="None";
 //  document.getElementById("Cownsp").style.display="None";
-	document.getElementById("Posesp").style.display="None";
+//  document.getElementById("Posesp").style.display="None";
 	document.getElementById("Popasp").style.display="None";
 //  document.getElementById("Hannasp").style.display="None";
 	document.getElementById("Classroomsp").style.display="None";
@@ -926,7 +926,7 @@ function Yorkdisappear(){
 	document.getElementById("Cohen").style.display="Block";
 	document.getElementById("Graber").style.display="Block";
 	document.getElementById("Appleby").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Chen").style.display="Block";
 	document.getElementById("Griffith").style.display="Block";
 	document.getElementById("Hughes").style.display="Block";
@@ -946,7 +946,7 @@ function Yorkdisappear(){
 	document.getElementById("Griffithsp").style.display="inline-block";
 	document.getElementById("Hughessp").style.display="inline-block";
 	document.getElementById("Portalsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Shecalfsp").style.display="inline-block";
 	document.getElementById("Hecalfsp").style.display="inline-block";
 	document.getElementById("Palumbosp").style.display="inline-block";
@@ -1028,7 +1028,7 @@ function Hughesdisappear(){
 	document.getElementById("Rauschenberger").style.display="Block";
 	document.getElementById("Treen").style.display="Block";
 	document.getElementById("Popa").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 //  document.getElementById("Hanna").style.display="Block";
 	document.getElementById("Classroom").style.display="Block";
 	document.getElementById("Cohen").style.display="Block";
@@ -1043,7 +1043,7 @@ function Hughesdisappear(){
 	document.getElementById("Yorksp").style.display="inline-block";
 	document.getElementById("Sitesp").style.display="inline-block";
 //  document.getElementById("Dreslinskisp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Chensp").style.display="inline-block";
 //  document.getElementById("Kaffensp").style.display="inline-block";
 //  document.getElementById("Cownsp").style.display="inline-block";
@@ -1082,7 +1082,7 @@ function Hughesdisappear(){
 	document.getElementById("Popa").style.display="Block";
 //  document.getElementById("Hanna").style.display="Block";
 	document.getElementById("Classroom").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Cohen").style.display="Block";
 	document.getElementById("Graber").style.display="Block";
 	document.getElementById("Appleby").style.display="Block";
@@ -1096,7 +1096,7 @@ function Hughesdisappear(){
 	document.getElementById("Sitesp").style.display="inline-block";
 	document.getElementById("Chensp").style.display="inline-block";
 	document.getElementById("Griffithsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Portalsp").style.display="inline-block";
 //  document.getElementById("Cownsp").style.display="inline-block";
 //  document.getElementById("Kaffensp").style.display="inline-block";
@@ -1127,7 +1127,7 @@ function Chendisappear(){
 	document.getElementById("Shecalf").style.display="Block";
 //  document.getElementById("Cown").style.display="Block";
 	document.getElementById("Impact").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Hughes").style.display="Block";
 	document.getElementById("Hecalf").style.display="Block";
 	document.getElementById("Palumbo").style.display="Block";
@@ -1150,7 +1150,7 @@ function Chendisappear(){
 	document.getElementById("Hughessp").style.display="inline-block";
 	document.getElementById("Chensp").style.display="inline-block";
 	document.getElementById("Portalsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Hughessp").style.display="inline-block";
 //  document.getElementById("Kaffensp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-block";
@@ -1189,7 +1189,7 @@ function Applebydisappear(){
 	document.getElementById("Rauschenberger").style.display="Block";
 	document.getElementById("Treen").style.display="Block";
 	document.getElementById("Popa").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 //  document.getElementById("Hanna").style.display="Block";
 	document.getElementById("Classroom").style.display="Block";
 	document.getElementById("Cohen").style.display="Block";
@@ -1204,7 +1204,7 @@ function Applebydisappear(){
 	document.getElementById("Yorksp").style.display="inline-block";
 	document.getElementById("Griffithsp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Hughessp").style.display="inline-block";
 	document.getElementById("Portalsp").style.display="inline-block";
 	document.getElementById("Shecalfsp").style.display="inline-block";
@@ -1232,7 +1232,7 @@ function Shecalfdisappear(){
 //  document.getElementById("Cown").style.display="Block";
 //  document.getElementById("Dreslinski").style.display="Block"
 	document.getElementById("Portal").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("York").style.display="Block";
 	document.getElementById("Shecalf").style.display="Block";
 	document.getElementById("Hecalf").style.display="Block";
@@ -1257,7 +1257,7 @@ function Shecalfdisappear(){
 	document.getElementById("Yorksp").style.display="inline-block";
 	document.getElementById("Griffithsp").style.display="inline-block";
 	document.getElementById("Shecalfsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-block";
 	document.getElementById("Hecalfsp").style.display="inline-block";
 	document.getElementById("Palumbosp").style.display="inline-block";
@@ -1280,7 +1280,7 @@ function Graberdisappear(){
 //  document.getElementById("Cown").style.display="Block";
 	document.getElementById("Portal").style.display="Block";
 	document.getElementById("Impact").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Shecalf").style.display="Block";
 //  document.getElementById("Kaffen").style.display="Block";
 	document.getElementById("York").style.display="Block";
@@ -1303,7 +1303,7 @@ function Graberdisappear(){
 //  document.getElementById("Cownsp").style.display="inline-block";
 	document.getElementById("Portalsp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 //  document.getElementById("Dreslinskisp").style.display="inline-block"
 	document.getElementById("Yorksp").style.display="inline-block";
 	document.getElementById("Hughessp").style.display="inline-block";
@@ -1340,7 +1340,7 @@ function Hecalfdisappear(){
 	document.getElementById("Rauschenberger").style.display="Block";
 	document.getElementById("Treen").style.display="Block";
 	document.getElementById("Impact").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Popa").style.display="Block";
 //  document.getElementById("Hanna").style.display="Block";
 	document.getElementById("Classroom").style.display="Block";
@@ -1361,7 +1361,7 @@ function Hecalfdisappear(){
 	document.getElementById("Shecalfsp").style.display="inline-block";
 	document.getElementById("Griffithsp").style.display="inline-block";
 	document.getElementById("Hecalfsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Palumbosp").style.display="inline-block";
 	document.getElementById("Rauschenbergersp").style.display="inline-block";
 	document.getElementById("Popasp").style.display="inline-block";
@@ -1436,7 +1436,7 @@ function Popadisappear(){
 	document.getElementById("Portal").style.display="Block";
 	document.getElementById("York").style.display="Block";
 	document.getElementById("Impact").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Hughes").style.display="Block";
 	document.getElementById("Shecalf").style.display="Block";
 	document.getElementById("Griffith").style.display="Block";
@@ -1469,7 +1469,7 @@ function Popadisappear(){
 	document.getElementById("Palumbosp").style.display="inline-block";
 	document.getElementById("Rauschenbergersp").style.display="inline-block";
 	document.getElementById("Popasp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 //  document.getElementById("Hannasp").style.display="inline-block";
 	document.getElementById("Classroomsp").style.display="inline-block";
 	document.getElementById("Cohensp").style.display="inline-block";
@@ -1489,7 +1489,7 @@ function Palumbodisappear(){
 //  document.getElementById("Kaffen").style.display="Block";
 	document.getElementById("Hughes").style.display="Block";
 	document.getElementById("Griffith").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 //  document.getElementById("Cown").style.display="Block";
 	document.getElementById("Shecalf").style.display="Block";
 	document.getElementById("Hecalf").style.display="Block";
@@ -1511,7 +1511,7 @@ function Palumbodisappear(){
 	document.getElementById("Yorksp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-block";
 //  document.getElementById("Dreslinskisp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 	document.getElementById("Sitesp").style.display="inline-block";
 	 
 	document.getElementById("Chensp").style.display="inline-block";
@@ -1549,7 +1549,7 @@ function Rauschenbergerdisappear(){
 	document.getElementById("Hecalf").style.display="Block";
 	document.getElementById("Chen").style.display="Block";
 	document.getElementById("Palumbo").style.display="Block";
-	document.getElementById("Pose").style.display="Block";
+//  document.getElementById("Pose").style.display="Block";
 	document.getElementById("Rauschenberger").style.display="Block";
 	document.getElementById("Treen").style.display="Block";
 	document.getElementById("Popa").style.display="Block";
@@ -1567,7 +1567,7 @@ function Rauschenbergerdisappear(){
 	document.getElementById("Griffithsp").style.display="inline-block";
 	document.getElementById("Impactsp").style.display="inline-bdrelock";
 	document.getElementById("Impactsp").style.display="inline-block";
-	document.getElementById("Posesp").style.display="inline-block";
+//  document.getElementById("Posesp").style.display="inline-block";
 //  document.getElementById("Cownsp").style.display="inline-block";
 //  document.getElementById("Dreslinskisp").style.display="inline-block";
 	document.getElementById("Hughessp").style.display="inline-block";
