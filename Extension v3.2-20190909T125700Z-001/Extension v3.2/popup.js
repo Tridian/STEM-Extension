@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
 //  document.getElementById("Kaffen").addEventListener("click", Kaffenappear);
 //  document.getElementById("Cown").addEventListener("click", Cownappear);
 //  document.getElementById("Howard").addEventListener("click", Howardappear);
-	document.getElementById("Impact").addEventListener("click", Impactappear);
+//  document.getElementById("Impact").addEventListener("click", Impactappear);
 //  document.getElementById("Pose").addEventListener("click", Poseappear);
 });
 /* adds the eventlisteners for all multilink folders. These run the appear function when clicked. Make sure there is a listener for all multilink folders
