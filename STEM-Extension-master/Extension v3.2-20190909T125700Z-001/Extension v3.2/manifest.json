@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "STEM Hub",
+  "name": "STEM Hub (UPDATED)",
   "description": "STEM High School Resource Center",
-  "version": "1.1",
+  "version": "1.2",
 
   "browser_action": {
     "default_icon": "icon.png",
