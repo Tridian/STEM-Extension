@@ -83,7 +83,7 @@ const buttons = [
 		"name": "Coach Graber",
 		"links": [
 			{ "link": "https://www.aleks.com/", "name": "ALEKS" },
-			{ "link": "https://www.desmos.com/calculator", "name": "Calculator" },
+			{ "link": "https://www.desmos.com/calculator", "name": "Desmos" },
 			{ "link": "https://www.geogebra.org/", "name": "GeoGebra" },
 			{ "link": "https://sites.google.com/site/coachgraberstem/", "name": "Main Website" },
 		],
