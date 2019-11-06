@@ -32,7 +32,8 @@ const buttons = [
 	{
 		"name": "Classroom",
 		"links": "https://classroom.google.com",
-		"image": "classroomFIN.PNG"
+		"image": "classroomFIN.PNG",
+		"icon": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiSi-6_69XlAhVDKKwKHRpgCgYQjRx6BAgBEAQ&url=https%3A%2F%2Fclassroom.google.com%2F&psig=AOvVaw3X67IWp_aM0kQDi9Qo_EbV&ust=1573138435669201"
 	},
 	{
 		"name": "Drive",
@@ -124,7 +125,7 @@ const buttons = [
 		"image": "popaFIN.PNG"
 	},
 	{
-		"name": "Coach Rauschenberger",
+		"name": "Coach Rausch",
 		"links": [
 			{ "link": "https://www.icivics.org/", "name": "iCivics" },
 			{ "link": "http://everfi.com/", "name": "EVERFI" },
@@ -182,11 +183,27 @@ document.addEventListener("DOMContentLoaded", function () {
 		buttonObj.id = button.name;
 
 		// Create the Image and attach it to the button
+		/*
 		let imgObj = document.createElement("img");
 		imgObj.setAttribute("src", button.image);
 		imgObj.setAttribute("alt", button.name);
 		imgObj.setAttribute("width", 90);
 		buttonObj.appendChild(imgObj);
+		*/
+		
+		// Add icons if they exist, otherwise use text
+		if (button.icon != null && button.icon != undefined && typeof button.icon == "string") {
+			let iconObj = document.createElement("img");
+			iconObj.setAttribute("src", button.image);
+			iconObj.setAttribute("style", "width: 100%")
+			buttonObj.appendChild(iconObj);
+		} else {
+			// Generate a text-based logo
+			let textDiv = document.createElement("div");
+			textDiv.setAttribute("class", "label");
+			textDiv.innerHTML = button.name;
+			buttonObj.appendChild(textDiv);
+		}
 
 		if (typeof button.links == "string") { // For single links
 			let aObj = document.createElement("a");

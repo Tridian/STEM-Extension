@@ -3,7 +3,7 @@
 	cursor: pointer;
 	border-color: #019ba6;
 	border-style: outset;
-	background-color: #3d4e56;
+	background-color: #485b64;
 	padding: 0px;
 	height: 60px;
 	width: 100px;
@@ -31,4 +31,14 @@
 .linkButton:hover,
 a.subLink:hover { /* Adds the color while hovering over links/buttons */
 	background-color: #019ba6;
+}
+
+.label {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #019ba6;
+	text-shadow: black 1px 1px;
+	
+	font-size: 20px;
+	font-size: 15vw;
+	text-align: center;
 }
