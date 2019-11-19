@@ -20,7 +20,13 @@ const buttons = [
 		"links": "https://stemhigh.akronschools.com/",
 		"image": "siteFIN.PNG",
 		"icon": "https://ibb.co/YyNSRGw"
-	},	
+	},
+	{
+		"name": "Morning Meeting",
+		"links": "https://drive.google.com/drive/folders/0B8_Z54VUgIF9fkZoT01vZTBuS2ZPdU84UXhKaTN2RzViWGlwSnhhSHM4dWNvUWlKNFBlZ0E",
+		"image": "mmFIN.PNG",
+		"icon": "https://ibb.co/ZYzqvs2"
+	},
 	{
 		"name": "Cite This For Me",
 		"links": "https://chrome.google.com/webstore/detail/cite-this-for-me-web-cite/nnnmhgkokpalnmbeighfomegjfkklkle?utm_source=chrome-ntp-icon",
@@ -28,10 +34,22 @@ const buttons = [
 		"icon": "https://ibb.co/TttRjKq"
 	},
 	{
+		"name": "Home Access",
+		"links": "https://homeaccess.akron.k12.oh.us/HomeAccess/Account/LogOn?ReturnUrl=%2fHomeAccess",
+		"image": "hacFIN.PNG",
+		"icon": "https://ibb.co/nMvfmZm"
+	},
+	{
 		"name": "Impact Schedule",
 		"links": "https://docs.google.com/spreadsheets/d/1gUlVOiRAwTWJOIP8n_hUGvnFMKB_WF86PmUk1MKi-x8/edit?usp=sharing",
 		"image": "impactFIN.PNG",
 		"icon": "https://ibb.co/85Vg3Ly"
+	},
+	{
+		"name": "Gmail",
+		"links": "https://mail.google.com",
+		"image": "gmailFIN.PNG",
+		"icon": "https://ibb.co/BqMdt5D"
 	},
 	{
 		"name": "Classroom",
