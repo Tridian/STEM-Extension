@@ -12,22 +12,26 @@ const buttons = [
 	{
 		"name": "Portal", //Declare name of button
 		"links": "https://portal.apslearns.org", //Insert link
-		"image": "portalFIN.PNG" //Insert button image (All buttons are 
+		"image": "portalFIN.PNG", //Insert button .PNG directly
+		"icon": "https://ibb.co/YyNSRGw" //insert image from hosting server
 	},
 	{
 		"name": "Stem Site",
 		"links": "https://stemhigh.akronschools.com/",
-		"image": "siteFIN.PNG"
+		"image": "siteFIN.PNG",
+		"icon": "https://ibb.co/YyNSRGw"
 	},	
 	{
-		"name": "Impact",
-		"links": "https://docs.google.com/spreadsheets/d/1gUlVOiRAwTWJOIP8n_hUGvnFMKB_WF86PmUk1MKi-x8/edit?usp=sharing",
-		"image": "impactFIN.PNG"
+		"name": "Cite This For Me",
+		"links": "https://chrome.google.com/webstore/detail/cite-this-for-me-web-cite/nnnmhgkokpalnmbeighfomegjfkklkle?utm_source=chrome-ntp-icon",
+		"image": "citethisformeFIN.PNG",
+		"icon": "https://ibb.co/TttRjKq"
 	},
 	{
-		"name": "Cite This For Me",
-		"links": "http://www.citethisforme.com",
-		"image": "citethisformeFIN.PNG"
+		"name": "Impact Schedule",
+		"links": "https://docs.google.com/spreadsheets/d/1gUlVOiRAwTWJOIP8n_hUGvnFMKB_WF86PmUk1MKi-x8/edit?usp=sharing",
+		"image": "impactFIN.PNG",
+		"icon": "https://ibb.co/85Vg3Ly"
 	},
 	{
 		"name": "Classroom",
@@ -38,7 +42,8 @@ const buttons = [
 	{
 		"name": "Drive",
 		"links": "https://drive.google.com",
-		"image": "driveFIN.PNG"
+		"image": "driveFIN.PNG",
+		"icon": "https://ibb.co/sFsyHh4"
 	},
 	{
 		"name": "Coach Appleby",

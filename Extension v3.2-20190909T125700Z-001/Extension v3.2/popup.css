@@ -34,8 +34,9 @@ a.subLink:hover { /* Adds the color while hovering over links/buttons */
 }
 
 .label {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: #019ba6;
+	font-family: Franklin Gothic Medium, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #01C1C6;
+	font-style: italic;
 	text-shadow: black 1px 1px;
 	
 	font-size: 20px;
